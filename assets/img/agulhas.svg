@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 460" role="img" aria-labelledby="mapTitle mapDesc">
+  <title id="mapTitle">Southern Africa and the Agulhas Current</title>
+  <desc id="mapDesc">Stylised chart of southern Africa, Madagascar, and the Agulhas Current turning in the south-west Indian Ocean.</desc>
+  <rect width="360" height="460" fill="#1a2a2c"/>
+  <g fill="none" stroke="#3d6b68" stroke-width="0.6" opacity="0.45">
+    <path d="M20 80 H340 M20 140 H340 M20 200 H340 M20 260 H340 M20 320 H340 M20 380 H340"/>
+    <path d="M60 20 V440 M120 20 V440 M180 20 V440 M240 20 V440 M300 20 V440"/>
+  </g>
+  <path d="M92 42 C 108 70, 118 110, 116 150 C 114 188, 122 220, 138 248 C 154 276, 150 308, 132 338 C 118 360, 108 384, 118 410 C 128 430, 160 438, 186 428 C 214 416, 228 390, 236 360 C 244 328, 258 300, 250 268 C 244 242, 228 220, 232 190 C 236 158, 254 128, 248 96 C 244 74, 226 58, 204 52 C 176 44, 140 28, 92 42 Z" fill="#cbbda4"/>
+  <path d="M268 92 C 278 108, 286 130, 282 152 C 278 172, 286 188, 298 196 C 310 204, 318 188, 316 168 C 314 142, 306 118, 292 100 C 282 90, 272 86, 268 92 Z" fill="#d7cbb4"/>
+  <path d="M148 250 C 210 210, 268 196, 318 168" fill="none" stroke="#e07a3d" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M318 168 C 338 210, 328 268, 292 318 C 260 360, 214 392, 176 418" fill="none" stroke="#e07a3d" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M292 318 C 318 300, 346 274, 338 236" fill="none" stroke="#f2c7a4" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="5 6"/>
+  <circle cx="186" cy="428" r="4.5" fill="#e07a3d"/>
+  <text x="28" y="42" fill="#d7cbb4" font-family="Georgia, serif" font-size="12" letter-spacing="2.2">SW INDIAN OCEAN</text>
+  <text x="28" y="428" fill="#9bb8b4" font-family="system-ui, sans-serif" font-size="10" letter-spacing="1.8">AGULHAS RETROFLECTION</text>
+</svg>

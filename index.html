@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mthetho Vuyo Sovara — climate, oceans, and national HPC</title>
+  <meta name="description" content="Mthetho Vuyo Sovara is a research software engineer and climate scientist working on Indian Ocean teleconnections, Earth system models, and high-performance computing for Africa.">
+  <meta name="author" content="Mthetho Vuyo Sovara">
+  <link rel="canonical" href="https://msovara.github.io/">
+  <meta property="og:title" content="Mthetho Vuyo Sovara">
+  <meta property="og:description" content="Climate, oceans, and national-scale research computing.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://msovara.github.io/">
+  <meta property="og:image" content="https://msovara.github.io/assets/img/portrait.jpg">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;580;650&family=Fraunces:opsz,wght@9..144,500;9..144,620&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="mark" href="#top">
+        <span class="mark-initials">MS</span>
+        <span class="mark-name">Mthetho Sovara</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="nav" aria-label="Primary">
+        <a href="#research">Research</a>
+        <a href="#software">Software</a>
+        <a href="#talks">Talks</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="wrap hero" id="top">
+      <div>
+        <p class="kicker">Molo · climate · oceans · HPC</p>
+        <h1>Mthetho Vuyo Sovara</h1>
+        <p class="lede">I keep national-scale Earth system workflows running, and I study how the Indian Ocean writes drought onto the African continent.</p>
+        <p class="meta-row">
+          <span>Senior Research Support Scientist, CHPC / CSIR</span>
+          <span>PhD candidate, University of Cape Town</span>
+          <span>South Africa</span>
+        </p>
+      </div>
+      <figure class="hero-panel">
+        <img class="chart" src="assets/img/agulhas.svg" width="360" height="460" alt="Stylised chart of southern Africa, Madagascar, and the Agulhas Current in the south-west Indian Ocean">
+        <img class="seal" src="assets/img/portrait.jpg" width="64" height="64" alt="GitHub avatar for Mthetho Sovara">
+        <figcaption class="caption">
+          <span>Agulhas / Indian Ocean</span>
+          <span>Pretoria · Cape Town</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <div class="band">
+      <div class="wrap band-grid">
+        <div>
+          <h2>At CHPC</h2>
+          <p>I support Earth system science and astrophysics on Lengau: building models, sanitising environments, and helping researchers get codes to run at national scale.</p>
+        </div>
+        <div>
+          <h2>In research</h2>
+          <p>My PhD work traces Indian Ocean Dipole teleconnections to African drought, then asks whether ICON, MPAS, and AI weather models can reproduce that physics.</p>
+        </div>
+        <div>
+          <h2>In public</h2>
+          <p>I write open installation guides, train teachers and students, and argue that research software engineering is part of Africa’s climate infrastructure.</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="wrap" id="about">
+      <div class="section-head">
+        <p class="section-num">01 / About</p>
+        <h2>Ocean, atmosphere, and the machines in between</h2>
+      </div>
+      <div class="prose">
+        <p>I am a research software engineer and climate scientist based in South Africa. By day I work at the Centre for High Performance Computing, part of the CSIR, where I help scientists run weather, climate, ocean, and space-science codes on the national Lengau cluster. The rest of the time I am a doctoral candidate at the University of Cape Town, in ocean and climate dynamics.</p>
+        <p>The thread is the same in both roles. Southern Africa’s rainfall is tightly coupled to the Indian Ocean. Useful prediction therefore needs three things at once: physical understanding, models that actually compile and scale, and software that other people can reuse. I work at that intersection.</p>
+        <p>I hold an MSc in Ocean and Climate Dynamics from UCT and a BSc Honours in Environmental Sciences from Walter Sisulu University in Mthatha. Before CHPC I interned in marine remote sensing at Oceans and Coasts. I also founded MBV Climate and Ocean Intelligence Africa, a small practice for climate and ocean decision support on the continent.</p>
+      </div>
+    </section>
+
+    <section class="wrap" id="research">
+      <div class="section-head">
+        <p class="section-num">02 / Research</p>
+        <h2>What I am trying to understand</h2>
+      </div>
+      <div class="research-list">
+        <article class="research-item">
+          <p class="tag">Teleconnections</p>
+          <div>
+            <h3>Indian Ocean Dipole and African drought</h3>
+            <p>I analyse how IOD events, with and without ENSO, organise drought across Africa from 1980 to 2020. The work uses ERA5, SPI and SPEI, lag and partial correlations, wavelet coherence, and circulation composites: MSLP, 850 hPa winds, and 500 hPa height. The practical question is lead time. If the Indian Ocean is already rearranging the atmosphere, how much warning does southern Africa actually have?</p>
+          </div>
+        </article>
+        <article class="research-item">
+          <p class="tag">Dynamical models</p>
+          <div>
+            <h3>Can ICON and MPAS see the same teleconnection?</h3>
+            <p>Statistical maps are only the first act. The next is whether non-hydrostatic global models, run on national HPC, reproduce the observed drought dipole, lag, and circulation. I deploy ICON, MPAS, WRF, CCAM, and CROCO on Lengau, then treat Paper 1 diagnostics as a benchmark rather than a one-off analysis.</p>
+          </div>
+        </article>
+        <article class="research-item">
+          <p class="tag">AI weather</p>
+          <div>
+            <h3>Forecasts that do not require a supercomputer in the room</h3>
+            <p>Through ECMWF’s AI Weather Quest and Code for Earth, I work on Anemoi pipelines, JRA-3Q data preparation, and Mvula (LapAI-Forecast): compressing AIFS-class models so a 10-day global forecast can be evaluated for African conditions on modest hardware. Edge-deployable climate intelligence matters where connectivity and compute are uneven.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap" id="software">
+      <div class="section-head">
+        <p class="section-num">03 / Software</p>
+        <h2>Codes that survive contact with Lengau</h2>
+      </div>
+      <p class="note">Most of my public work is not a product demo. It is the missing manual: compilers, modules, DTN transfers, MPI, and the first successful run. Selected repositories:</p>
+      <table class="work-table">
+        <thead>
+          <tr>
+            <th>Repository</th>
+            <th>What it is for</th>
+            <th>Domain</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://github.com/msovara/icon-chpc">icon-chpc</a></td>
+            <td>ICON configuration, templates, and job scripts for Lengau.</td>
+            <td>Atmosphere</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/msovara/mpas-lengau">mpas-lengau</a></td>
+            <td>MPAS-A installation and run workflow on the national cluster.</td>
+            <td>Atmosphere</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/msovara/wrf-lengau">wrf-lengau</a></td>
+            <td>WRF build path for Lengau, with related WRF-Hydro, WRF-Fire, and WRF-Chem notes.</td>
+            <td>Weather</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/msovara/ccam-lengau">ccam-lengau</a></td>
+            <td>CCAM build and module files using Intel oneAPI.</td>
+            <td>Regional climate</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/msovara/croco-chpc-uct-egs">croco-chpc-uct-egs</a></td>
+            <td>CROCO on Lengau with Intel MPI, for ocean modelling at UCT.</td>
+            <td>Ocean</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/msovara/delft3d-singularity-container-lengau">delft3d-singularity-container-lengau</a></td>
+            <td>Delft3D container workflow developed with SAWS Marine colleagues.</td>
+            <td>Coastal</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/msovara/swatplus-chpc">swatplus-chpc</a></td>
+            <td>SWAT+ hydrology workflows on Lengau.</td>
+            <td>Catchments</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/msovara/dbe-coding-robotics-curriculum">dbe-coding-robotics-curriculum</a></td>
+            <td>A week-long coding and robotics curriculum for DBE teacher training.</td>
+            <td>Education</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="wrap" id="talks">
+      <div class="section-head">
+        <p class="section-num">04 / Talks</p>
+        <h2>Arguments I have made in public</h2>
+      </div>
+      <div class="talks">
+        <article class="talk">
+          <time datetime="2024-05">May 2024 · Hamburg, ISC High Performance</time>
+          <h3>Leveraging HPC and RSE for addressing Africa’s socio-economic and scientific challenges</h3>
+          <p>Featured talk at RSEHPC@ISC24. HPC and research software engineering are not adjacent to African development problems in health, agriculture, climate, and cities. They are how those problems get computed at all. <a href="https://www.rse-hpc.org/talks/Mthetho_Sovara/">Talk page</a></p>
+        </article>
+        <article class="talk">
+          <time datetime="2024-06">June 2024 · RSSE Africa</time>
+          <h3>Community spotlight</h3>
+          <p>A conversation about CHPC user support, Lesotho climate variability work with the Lesotho Meteorological Services, and why machine learning in weather and climate became a turning point. <a href="https://rsse.africa/post/2024/06/spotlight-june/">Profile</a></p>
+        </article>
+        <article class="talk">
+          <time datetime="2026">2026 · ECMWF Code for Earth</time>
+          <h3>Mvula / LapAI-Forecast</h3>
+          <p>Bringing AIFS-class forecasts off the supercomputer and onto a laptop, with evaluation aimed at African weather rather than a generic global scorecard.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap" id="teaching">
+      <div class="section-head">
+        <p class="section-num">05 / Teaching</p>
+        <h2>Capacity is also software</h2>
+      </div>
+      <div class="prose">
+        <p>A large part of CHPC work is teaching by other means: debugging someone else’s namelist at 07:00, writing the guide that prevents the next ten tickets, and showing postgraduate students from across southern Africa how to move from a laptop script to a cluster job.</p>
+        <p>I contribute to the CHPC Winter School, the DSI Coding School, and a coding and robotics curriculum designed with the Department of Basic Education. I have been involved in the CHPC Student Cluster Competition, SASAS, the CHPC–ASSAf collaboration, and the RSSE Africa community. The audience ranges from high-school teachers to working scientists. The point is the same: computation should not be a private language.</p>
+      </div>
+    </section>
+
+    <section class="wrap" id="contact">
+      <div class="section-head">
+        <p class="section-num">06 / Contact</p>
+        <h2>Write, fork, or visit</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="prose">
+          <p>I am based in South Africa and work across Pretoria and Cape Town. The fastest professional route is email. For model builds and cluster recipes, GitHub issues on the relevant repository are better than a general inbox.</p>
+          <p class="note">This page is a first public draft. Dates, titles, and project lists will tighten as papers land and as I add a proper publications list from ORCID.</p>
+        </div>
+        <ul class="contact-links">
+          <li><a href="mailto:msovara@csir.co.za">msovara@csir.co.za</a></li>
+          <li><a href="https://github.com/msovara">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/mthetho-sovara-3a939272/">LinkedIn</a></li>
+          <li><a href="https://orcid.org/0000-0002-0498-0179">ORCID 0000-0002-0498-0179</a></li>
+          <li><a href="https://x.com/MSovara">X / Twitter</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span data-year>2026</span> Mthetho Vuyo Sovara. Site source on <a href="https://github.com/msovara/msovara.github.io">GitHub</a>.</p>
+      <p>Designed as a static GitHub Pages draft. No analytics.</p>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
