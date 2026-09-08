@@ -205,19 +205,10 @@ h1 {
 
 .chart {
   width: 100%;
-  aspect-ratio: 360 / 460;
-  object-fit: fill;
-  background: #1a2a2c;
-}
-
-.seal {
-  position: absolute;
-  width: 3.4rem;
-  height: 3.4rem;
-  right: 1.15rem;
-  bottom: 3.35rem;
-  border: 2px solid var(--foam);
-  box-shadow: var(--shadow);
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  object-position: center;
+  background: #0b1520;
 }
 
 .caption {
@@ -460,15 +451,14 @@ section {
     scroll-behavior: auto;
   }
 
-  .current-art path {
-    animation: none !important;
+  .chart {
+    object-fit: contain;
   }
 }
 
 @media print {
   .site-header,
-  .menu-toggle,
-  .current-art {
+  .menu-toggle {
     display: none;
   }
 

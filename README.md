@@ -20,4 +20,4 @@ Then visit http://localhost:8080.
 
 ## Edit later
 
-Copy lives in `index.html`. Styles are in `assets/css/styles.css`. Swap `assets/img/portrait.jpg` for a higher-resolution photograph when you have one.
+Copy lives in `index.html`. Styles are in `assets/css/styles.css`. The hero plate is `assets/img/current-and-cluster.png`.
